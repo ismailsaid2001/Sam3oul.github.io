@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Deep dive into TTS"
-author: sam3oul
+author: Sam3oul
 categories: [ Artficial inteligence, tutorial ]
 image: assets/images/18.jpg
 ---
