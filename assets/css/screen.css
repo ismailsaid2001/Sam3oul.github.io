@@ -279,8 +279,6 @@ span.post-read-more a:hover {
 }
 
 .mediumnavigation .navbar-brand {
-    width: 200px; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
     font-weight: 500;
 }
 
@@ -302,7 +300,7 @@ span.post-read-more a:hover {
 }
 
 .mediumnavigation .navbar-brand img {
-    max-height: 30px;
+    max-height: 200px;
     margin-right: 5px;
 }
 
