@@ -14,6 +14,10 @@ The second stage then converts this mel-spectrogram into the final **waveform** 
 
 One of the standout features of Tacotron 2 is its ability to capture intricate `intonations`, `expressiveness`, and `contextual cues`, producing speech that sounds remarkably **authentic**.
 
+We are set to uncover the core architecture of the model. 
+
+For an in-depth exploration of both the model and its `underlying theory`, you have the option to refer to the official <a href='https://arxiv.org/pdf/1712.05884v2.pdf'> paper authored by **Google's research team**</a>.
+
 ## Architecture of Tacotron 2
 The `Tacotron 2` system adopts an **encoder-decoder** architecture with the attention mechanism, which enables it to transform text inputs into natural-sounding speech. 
 
@@ -51,7 +55,6 @@ Then let's import the Torch and Librosa libraries and the IPython.display module
 ```python
 import torch
 import librosa
-
 import IPython.display as ipd
 ```
 
