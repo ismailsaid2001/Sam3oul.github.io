@@ -2,7 +2,7 @@
 layout: post
 title:  "Unlocking the Power of TTS: Exploring Concepts and Confronting Challenges"
 author: Sam3oul
-categories: [ Artficial inteligence, tutorial ]
+categories: [ Artficial inteligence, Theory,TTS,Machine learning]
 image: assets/images/18.jpg
 beforetoc: "This is a walk through the basics of Text to speech technologies and the steps that enable us to generate voice based on a given text"
 toc: true
@@ -31,6 +31,7 @@ The second main subtask is generating the actual audio
 
 ## First subtask : Mel-Spectrogram prediction
 before we go further let's break down some terms :
+
 **Fourier Transform:**Fourier transform is a `mathematical` technique that decomposes a `complex` signal into its constituent **frequency components**.
 
 ![walking]({{ site.baseurl }}/assets/images/fourier.png)
@@ -46,8 +47,6 @@ Mel-spectrograms are widely used in speech and audio analysis because they captu
 This input data could be text (in the case of TTS) or raw audio waveform (in the case of ASR).
 
 ## Second subtask : waveform synthesis
-
-![walking]({{ site.baseurl }}/assets/images/waveform.png)
 
 The second main subtask is generating the actual audio **waveform** from the mel-spectrogram.
 
@@ -74,6 +73,7 @@ In these instances, the word **"bass"** takes on separate meanings depending on 
 Similarly, the term **"live"** can indicate either "being alive" or "a live performance." Such words with multiple pronunciations and meanings are referred to as **confused words** as they can lead to ambiguity and the need for contextual interpretation.
 
 **2-Text Normalization**
+
 TTS systems require preprocessing for handling non-standard words 
 like: **numbers ,monetary amounts,abbreviations , dates,Acronyms**
 
@@ -112,7 +112,7 @@ the technology behind text normalization and many aspects of **text-to-speech (T
 
 **Language Modeling:** Language models like transformers are used to understand the context of words and phrases in a sentence. They capture relationships between words and contribute to `context-aware` text normalization.
 
-**Rule-Based Systems:** Traditional rule-based approaches define **explicit rules** for how certain terms or patterns should be normalized and pronounced. These rules can handle common cases but might lack the flexibility of machine learning approaches.
+**Rule-Based Systems:** Traditional rule-based approaches define `explicit rules` for how certain terms or patterns should be normalized and pronounced. These rules can handle common cases but might lack the flexibility of `machine learning` approaches.
 
 **Contextual Analysis:** Contextual analysis models, including contextual `embeddings` and `transformers`, are used to understand the surrounding words and phrases to determine **pronunciation patterns**.
 
