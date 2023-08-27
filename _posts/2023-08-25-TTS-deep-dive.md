@@ -126,7 +126,7 @@ first of all Abbreviations  need to be deciphered into their original forms.
 
 Here are a few ways TTS systems handle acronyms :
 
-**Predefined Pronunciation Rules:** TTS systems often include predefined pronunciation rules for common acronyms and abbreviations. These rules guide the system on how to pronounce specific sequences of letters. For instance, "NASA" might be pronounced as individual letters ("N. A. S. A.") or as a word ("nasa").
+**Predefined Pronunciation Rules:** TTS systems often include predefined pronunciation rules for common acronyms and abbreviations. These rules guide the system on how to pronounce specific sequences of letters. For instance, `"NASA"` might be pronounced as individual letters (`"N. A. S. A."`) or as a word (`"nasa"`).
 
 **Contextual Analysis:** Advanced TTS systems can analyze the surrounding context to determine the appropriate pronunciation. For example, if the surrounding text contains words related to science and space, the system might pronounce `"NASA"` as the space agency rather than individual letters.
 
