@@ -11,13 +11,17 @@ toc: true
  
 Text-to-speech (TTS) stands as a captivating technology that converts written text into `spoken language`. This innovation enables computers and devices to interact audibly with users, seamlessly turning written information into speech that sounds completely natural.
 
-The potential of TTS knows no bounds: from enriching accessibility for those with visual impairments to crafting captivating voice-overs for multimedia content.
+![walking]({{ site.baseurl }}/assets/images/spec.png)
 
-Utilizing **advanced algorithms** and linguistic models, TTS systems normalize, analyze input text, utilize methods to **synthesize speech**, and generate audio output that skillfully replicates human speech patterns, intonation, and even emotions.
-In the field of Text-to-Speech (TTS) solutions, diverse companies offer tools. Amazon's Polly provides lifelike voices with customization, Google's Text-to-Speech employs deep learning for natural speech synthesis, and Microsoft's Azure Cognitive Services offers cloud-powered voice customization. These solutions reflect technological innovation, catering to a wide array of applications and showcasing the dynamic evolution of the TTS landscape.
+
+The potential of TTS knows no bounds: from enriching accessibility for those with `visual impairments` to crafting captivating voice-overs for `multimedia content`.
+
+Utilizing `advanced algorithms` and `linguistic models`, TTS systems normalize, analyze input text, utilize methods to **synthesize speech**, and generate audio output that skillfully replicates human speech patterns, intonation, and even emotions.
+In the field of Text-to-Speech (TTS) solutions, diverse companies offer tools. **Amazon**'s Polly provides lifelike voices with customization, **Google**'s Text-to-Speech employs deep learning for natural speech synthesis, and **Microsoft**'s Azure Cognitive Services offers cloud-powered voice customization. These solutions reflect technological innovation, catering to a wide array of applications and showcasing the dynamic evolution of the TTS landscape.
 ## TTS's subtasks 
-generating speech from text is essentially based on 2 main subtasks :
-the first subtask is Mel-Spectrogram prediction which is a technique commonly used in audio processing, particularly in **TTS** and **ASR**( Automatic Speech Recognition) that aims to predict the mel-spectrogram representation of an audio signal .The second main subtask is generating the actual audio waveform from the mel-spectrogram. 
+Generating speech from text is essentially based on 2 main subtasks :
+the first subtask is Mel-Spectrogram prediction which is a technique commonly used in audio processing, particularly in `TTS` and `ASR`( Automatic Speech Recognition) that aims to predict the mel-spectrogram representation of an audio signal .The second main subtask is generating the actual audio 
+**waveform** from the **mel-spectrogram**. 
 
 
 
@@ -44,27 +48,35 @@ try to read these two phrases :
 
 `"I prefer bass fishing to play the bass guitar"`
 
-`"Do you live near a zoo with live animals"`
+`"Do you live near a zoo with live animals ?"`
 
 In these instances, the word **"bass"** takes on separate meanings depending on whether it refers to a type of fish or a musical instrument. 
 
-Similarly, the term **"live"** can indicate either "being alive" or "a live performance." Such words with multiple pronunciations and meanings are referred to as **"confused words"** as they can lead to ambiguity and the need for contextual interpretation.
+Similarly, the term **"live"** can indicate either "being alive" or "a live performance." Such words with multiple pronunciations and meanings are referred to as **1-confused words** as they can lead to ambiguity and the need for contextual interpretation.
 
-**Text Normalization**
+**2-Text Normalization**
 TTS systems require preprocessing for handling non-standard words 
 like: **numbers ,monetary amounts,abbreviations , dates,Acronyms**
+
 look at these  examples:
+
+
 `The African economy in 2023`
 
 `the password is 2023`
 
 `it costs 2023 dollars`
 
-for the first example, 2023 is commonly pronounced: `"twenty-twenty-three"`
-for the second example,2023 is commonly pronounced `"two zero two three"`
-for the second example,2023 is commonly pronounced `"two thousand twenty-three"`
+For the first example, 2023 is commonly pronounced: 
+`"twenty-twenty-three"` .
 
-so  the pronunciation of a word depends not only on the embedding of a word but depends on the context (the neighboring  tokens )
+
+For the second example,2023 is commonly pronounced `"two zero two three"` .
+
+
+For the second example,2023 is commonly pronounced `"two thousand twenty-three"` .
+
+So  the pronunciation of a word depends not only on the embedding of a word but depends on the context (the neighboring  tokens )
 
 the technology behind text normalization and many aspects of text-to-speech (TTS) involves Natural Language Processing (NLP) techniques :
 
@@ -83,7 +95,7 @@ the technology behind text normalization and many aspects of text-to-speech (TTS
 
 
 
-**Abbrevition and aronyms** 
+**3-Abbrevition and aronyms** 
 
 Acronyms and abbreviations present specific challenges in text-to-speech (TTS) because their pronunciation can vary based on **context**, **language**, and **domain** .
 
@@ -102,7 +114,9 @@ Here are a few ways TTS systems handle acronyms :
 **Adaptive Learning:** Modern TTS systems can employ machine learning techniques to adapt pronunciation based on the training data and user feedback. If an acronym or abbreviation is frequently encountered, the system might learn to pronounce it correctly from context.
 
 ## Conclusion 
-In this article, we've come to realize that the TTS system is far from being a mystical black box. Instead, it is rooted in a comprehensive theory, consisting of two significant subtasks: Mel-Spectrogram prediction and waveform analysis. In the next article, we'll delve into the practical aspect, where we'll put several models to the test with actual code. Stay connected for more insights! And if you have any questions, feel free to reach me out.
+In this article, we've come to realize that the TTS system is far from being a mystical black box. Instead, it is rooted in a comprehensive theory, consisting of two significant subtasks: Mel-Spectrogram prediction and waveform analysis. In the next article, we'll delve into the practical aspect, where we'll put several models to the test with actual code. Stay connected for more insights! 
+
+If you have any questions, feel free to reach me out.
 
 
 
