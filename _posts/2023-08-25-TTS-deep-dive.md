@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  "Deep dive into TTS"
+title:  "Unlocking the Power of TTS: Exploring Concepts and Confronting Challenges"
 author: Sam3oul
 categories: [ Artficial inteligence, tutorial ]
 image: assets/images/18.jpg
 beforetoc: "This is a walk through the basics of Text to speech technologies and the steps that enable us to generate voice based on a given text"
+toc: true
 ---
 ## What's TTS
  
@@ -42,6 +43,7 @@ The second main subtask is generating the actual audio **waveform** from the mel
 try to read these two phrases :
 
 `"I prefer bass fishing to play the bass guitar"`
+
 `"Do you live near a zoo with live animals"`
 
 In these instances, the word **"bass"** takes on separate meanings depending on whether it refers to a type of fish or a musical instrument. 
