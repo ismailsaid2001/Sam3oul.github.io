@@ -6,6 +6,7 @@ categories: [ Artficial inteligence, Theory,TTS,Machine learning]
 image: assets/images/18.jpg
 beforetoc: "This is a walk through the basics of Text to speech technologies and the steps that enable us to generate voice based on a given text"
 toc: true
+featured: true
 ---
 ## What's TTS
  
