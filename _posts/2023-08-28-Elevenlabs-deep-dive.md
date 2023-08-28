@@ -96,7 +96,7 @@ With a sigh, she mumbled, sadly, 'It's just not the same.'
 ```
 
 
-**Voice cloning**
+## Voice cloning
 
 `Eleven Labs AI`   boasts a remarkable capability: `voice cloning`.
 
@@ -184,5 +184,5 @@ Along the way, we delved into the `theoretical underpinnings`, unraveled the cap
 I hope I've effectively conveyed these concepts, as I derive immense satisfaction from imparting knowledge.
 
 Keep an eye out for future articles as we continue this educational voyage
- 
+
 Peace !
