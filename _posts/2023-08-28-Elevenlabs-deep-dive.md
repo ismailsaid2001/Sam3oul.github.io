@@ -69,6 +69,13 @@ is the result of determination and effort
 
 **Pacing**
 
+Sometimes you may notice that the audio gnerated has a  `rapid ` pace since when you give the model many samples of the sound you want to clone  the system Combine these samples  `seamlessly `, without introducing any `gaps`, leads to pacing challenges and accelerates the pace of speech.
+
+You could control that by implementing the same approch used to control emotions based on the use of `dialogue tags` and using the adequate structure (You may include multiple commas in the text to deliberately slow down the rhythm and create a more measured pace.) . 
+```shell
+' "I believe that one day I will become successful, I truly do. I have to work hard for it, though" he said slowly. '
+```
+
 
 **Emotions**
 To effectively convey a particular emotion through the generated sound, the optimal approach is to communicate that emotion by strategically crafting your script's **structure**. 
@@ -161,9 +168,21 @@ def generate_audio(text, voice='Adam', save=False):
 ```
 
 ```python
-The ID of Neil deGrasse's voice: vGSmkRqXe09s8VP868kp
+#The ID of Neil deGrasse's voice: vGSmkRqXe09s8VP868kp
 generate_audio('Hello, I am a clone of Neil deGrasse Tyson.', 'vGSmkRqXe09s8VP868kp', True)
 ```
 
-As you set the save parameter to true we will get an audio file called output.mp3 containing the corresponding result.
+As you set the save parameter to true we will get an audio file called `output.mp3` containing the corresponding result.
+
 As simple as that !
+## conclusion
+
+We've now arrived at the end  of our brief journey into the realm of  TTS exploration. 
+
+Along the way, we delved into the `theoretical underpinnings`, unraveled the captivating **Tactron 2** model introduced by Google, and culminated our expedition with this article unveiling the mystique surrounding **ElevenLabs**.
+
+I hope I've effectively conveyed these concepts, as I derive immense satisfaction from imparting knowledge.
+
+Keep an eye out for future articles as we continue this educational voyage
+ 
+Peace !
