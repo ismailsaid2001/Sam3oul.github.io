@@ -8,7 +8,18 @@ comments: true
 <div class="row justify-content-between">
 <div class="col-md-8 pr-5">
 
-<p>Welcome to  online universe shaped by Ismail Said aka <b>Sam3oul</b> ! This virtual haven is exclusively devoted to the wondrous realm of artificial intelligence, machine learning, and cutting-edge technologies. Embark on a journey with me as we delve into the intricate intricacies of AI, unravel the mysteries of machine learning, and explore the ever-evolving landscape of innovative technologies. Here, I am committed to illuminating the complex concepts, breakthroughs, and trends that shape our digital world. Join me in unraveling the threads of knowledge and innovation as we navigate the boundless horizons of artificial intelligence and beyond. </p>
+<p class="mb-5"><img class="shadow-lg" src="/assets/images/ismail2.jpg" alt="Sam3oul's website" /></p>
+
+<p>Welcome to  the  online universe shaped by Ismail Said aka **Sam3oul** !
+
+This virtual haven is exclusively devoted to the wondrous realm of `artificial intelligence`, `machine learning`,`deep leanring` and many `cutting-edge` technologies. 
+ 
+Embark on a journey with me as we delve into the intricate intricacies of **AI**, unravel the mysteries of machine learning, and explore the ever-evolving landscape of innovative technologies.
+ 
+Here, I am committed to illuminating the `complex concepts`, `breakthroughs`, and trends that shape our digital world.
+  
+Join me in unraveling the threads of knowledge and innovation as we navigate the boundless horizons of artificial intelligence and beyond. </p>
+
 
 <p class="mb-5"><img class="shadow-lg" src="/assets/images/log.png" alt="Sam3oul's website" /></p>
 
