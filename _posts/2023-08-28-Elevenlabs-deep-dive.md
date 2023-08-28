@@ -23,12 +23,20 @@ There are actually two models proposed, the first is the **monolingual** model w
 
 it's very simple to use, you have to select the model you want to use .
 
+![models]({{ site.baseurl }}/assets/images/models.png)
+
 then you have to choose one of the voices proposed, each voice has its own features you could test them to be able to select the most **adequate** voice for you
 
-you could also calibrate the **stability** and **clarity** based on your need
+![models]({{ site.baseurl }}/assets/images/synthesis.png)
 
-And finally, type the text that will be given to the model as input(`your script`) 
+you could also calibrate the **stability** and **clarity** based on your need .
+
+![models]({{ site.baseurl }}/assets/images/stability.png)
+
+And finally, type the text that will be given to the model as input (`your script`) 
+
 ## Prompting 
+
 To improve the quality of the generated sound in terms of its rhythm pacing and realisl, we employ a commonly used technique known as `"prompting"` .
 
 This technique allows us to exert control over **pauses**, **emotions**, and the overall **pacing** of the sound output.
@@ -51,13 +59,12 @@ And finally  **line breaks** are also interpreted as pauses
 no need to hesitate next time,it's awesome for real :)
 
 ```shell
+"""
 Dream Big
-
 Work Hard
-
 because Success
-
 is the result of determination and effort
+"""
 ```
 
 **Pacing**
@@ -72,11 +79,13 @@ In addition to the previously mentioned method, you can enhance the expression o
 
 These tags offer an `insightful` way to inject emotion into paragraphs. For instance:
 ```shell
-
+"""
 She exclaimed, excitedly, 'I can't believe it!'
 He whispered, fearfully, 'Did you hear that?'
 They cheered, jubilantly, as the victory was secured.
 With a sigh, she mumbled, sadly, 'It's just not the same.'
+
+"""
 ```
 
 
@@ -107,14 +116,21 @@ look at this example :
 here I have tested the get voices request, I simply have to click on try it out, then I am only supposed to provide my API key 
 This is the result :
 
+![models]({{ site.baseurl }}/assets/images/API.png)
+
 let's give you another example :
-To clone a voice, click on the "Add Voice" section and give it a try. You'll need to upload clear audio files of the speaker, provide labels describing their voice, and offer a brief voice description. If everything is ok, you'll receive a successful response along with the corresponding ID of the generated voice in the response body.
 
-- - -a photo will be added here - - -
 
-using the voice you generated with eleven labs in your project 
+To clone a voice, click on the "Add Voice" section and give it a try. 
 
-first step: import these libraries
+You'll need to upload clear audio files of the speaker, provide labels describing their voice, and offer a brief voice description. 
+
+If everything is ok, you'll receive a successful response along with the corresponding ID of the generated voice in the response body.
+
+## using the voice you generated with eleven labs in your project 
+
+First of all import these libraries
+
 ```python
 from elevenlabs import set_api_key
 from dotenv import load_dotenv
@@ -122,7 +138,7 @@ import os
 from elevenlabs import generate, play, voices
 ```
 
-then, create .env file in your current directory in which you have to add your API key with the name "11LABS_API_KEY"
+Then, create .env file in your current directory in which you have to add your API key with the name "11LABS_API_KEY"
 
 ```python
 load_dotenv()
@@ -130,6 +146,7 @@ set_api_key(os.environ['11LABS_API_KEY'])
 ```
 
 then you have to implement the function responsible for generating a voice based on a voice you provide in arguments
+
 ```python
 def generate_audio(text, voice='Adam', save=False):
     audio = generate(
