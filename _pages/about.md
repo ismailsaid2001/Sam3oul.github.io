@@ -8,7 +8,7 @@ comments: true
 <div class="row justify-content-between">
 <div class="col-md-8 pr-5">
 
-<p class="mb-5"><img class="shadow-lg" src="/assets/images/ismail2.jpg" alt="Sam3oul's website" /></p>
+<p class="mb-5"><img class="shadow-lg" src="/assets/images/ismail2.jpg" alt="ismail's photo" /></p>
 
 <p> Welcome to  the  online universe shaped by Ismail Said aka <b>Sam3oul</b> ! </p>
 
