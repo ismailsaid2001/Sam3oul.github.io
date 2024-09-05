@@ -7,8 +7,7 @@ comments: true
 
 <div class="row justify-content-between">
 <div class="col-md-8 pr-5">
-<p class="mb-5"><img class="shadow-lg" src="/assets/images/ismail.jpg" alt="ismail's photo" /></p>
-
+<p class="mb-5"><img class="shadow-lg" src="Sam3oul.github.io/assets/images/ismail.jpg" alt="ismail's photo" /></p>
 <p> Welcome to  the  online universe shaped by Ismail Said aka <b>Sam3oul</b> ! </p>
 
 <p>This virtual haven is exclusively devoted to the wondrous realm of <b>artificial intelligence</b>,<b>machine learning</b>,<b>deep leanring</b> and many cutting-edge <b>technologies</b>. </p>
