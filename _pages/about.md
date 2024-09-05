@@ -19,7 +19,7 @@ comments: true
 <p> <b>Join me</b> in unraveling the threads of knowledge and innovation as we navigate the boundless horizons of artificial intelligence and beyond. </p>
 
 
-<p class="mb-5"><img class="shadow-lg" src="/assets/images/log.png" alt="Sam3oul's website" /></p>
+<p class="mb-5"><img class="shadow-lg" src="/Sam3oul.github.io//assets/images/log.png" alt="Sam3oul's website" /></p>
 
 <h4>Questions ?</h4>
 
